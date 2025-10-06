@@ -1,10 +1,12 @@
 
+import { useEffect, useState } from 'react';
 import './App.css'
 import Course from './Course';
-import image from './assets/andren.jpg'
-import image1 from './assets/richard.jpg'
-import image2 from './assets/sofia.jpg'
+// import image from './assets/andren.jpg'
+// import image1 from './assets/richard.jpg'
+// import image2 from './assets/sofia.jpg'
 import Courselist from './courselist';
+
 
 
 
@@ -26,3 +28,7 @@ function App() {
 }
 
 export default App
+ 
+
+
+

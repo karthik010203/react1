@@ -1,0 +1,33 @@
+{
+
+"list" : [
+    {
+       "id": 1,
+        "name": "andren", 
+        "price": 202,
+         "image": "http://localhost:3000/assets/andren.jpg",
+          "rating": 5
+},
+{
+         "id": 2,   
+        "name": "image1", 
+        "price": 222,
+         "image": "http://localhost:3000/assets/richard.jpg",
+          "rating": 3
+},
+{
+            "id": 3,
+        "name": "image2", 
+       "price": 302,
+        "image": "http://localhost:3000/assets/andren.jpg",
+          "rating": 1
+},
+{
+            "id": 4,
+        "name": "richard", 
+        "price": 200,
+         "image": "http://localhost:3000/assets/richard.jpg",
+          "rating": 2
+}
+]
+}
