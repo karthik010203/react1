@@ -6,6 +6,13 @@ import Course from './Course';
 // import image1 from './assets/richard.jpg'
 // import image2 from './assets/sofia.jpg'
 import Courselist from './courselist';
+import Counter from './count';
+import Name from './fetch';
+import { BrowserRouter, Route,Routes } from 'react-router-dom';
+import Login from './nav/login';
+import About from './nav/about';
+import Home from './nav/home';
+import './index.css'
 
 
 
@@ -15,15 +22,13 @@ function App() {
  
 
   return (
-    <>
-    <Courselist/>
-    </>
-    /* <List/>
-    <Sample/>
-    <Course name="andren" price="$200" image={image} rating={3} show={true}/>
-    <Course name="richard" price="200" image={image1} rating={4} />
-    <Course name="sofia" price="$200" image={image2} rating={6} show={true}/>
-     </>  */
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element = {<Login/>}/>
+      <Route path= '/Home' element ={<Home/>}/>
+      <Route path = '/about' element = {<About/>}/>
+    </Routes>
+    </BrowserRouter>
   );
 }
 

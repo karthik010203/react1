@@ -60,7 +60,7 @@ const [error,seterror]=useState(null)
 
 useEffect (()=>{
     // fetch('https://jsonplaceholder.typicode.com/posts')
-    fetch('http://localhost:3000/list')
+    fetch('http://localhost:3000/lists')
     .then(res=>{
         if(!res.ok){
             throw new Error("Not data");
@@ -76,6 +76,7 @@ useEffect (()=>{
          seterror(error.message)
      
         )
+        
 },[]);
 
 
@@ -108,8 +109,9 @@ useEffect
         {listline}
         <button onClick={()=>{setdummy(false)}}>dummy button</button>
         </>
-    );
 
+    );
+  
 }
 
 
