@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const About = () => {
   return (
     <div>
-        <Link to ="/" className='text-xl'> Login</Link>
+        <Link to ="/users" className='text-xl'> Login</Link>
        <h1>About Us</h1>
       <p>
         Welcome to our website! We are passionate about creating modern and
@@ -18,4 +18,4 @@ const About = () => {
   )
 }
 
-export default About
+export default About;

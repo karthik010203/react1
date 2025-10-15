@@ -12,6 +12,7 @@ import { BrowserRouter, Route,Routes } from 'react-router-dom';
 import Login from './nav/login';
 import About from './nav/about';
 import Home from './nav/home';
+import Users from './nav/Users';
 import './index.css'
 
 
@@ -27,7 +28,8 @@ function App() {
       <Route path='/' element = {<Login/>}/>
       <Route path= '/Home' element ={<Home/>}/>
       <Route path = '/about' element = {<About/>}/>
-    </Routes>
+      <Route path = '/users' element = {<Users/>}/>
+          </Routes>
     </BrowserRouter>
   );
 }
